@@ -529,19 +529,19 @@
   #ifdef MULTI_MODE_DRIVE
       // BEGINNER MODE:     Power ON + Brake [released] + Throttle [released or pressed]
       #define MULTI_MODE_DRIVE_M1_MAX   600
-      #define MULTI_MODE_DRIVE_M1_RATE  300
+      #define MULTI_MODE_DRIVE_M1_RATE  250
       #define MULTI_MODE_M1_I_MOT_MAX   8
-      #define MULTI_MODE_M1_N_MOT_MAX   80
+      #define MULTI_MODE_M1_N_MOT_MAX   100
 
       // INTERMEDIATE MODE: Power ON + Brake [pressed] + Throttle [released]
-      #define MULTI_MODE_DRIVE_M2_MAX   800
-      #define MULTI_MODE_DRIVE_M2_RATE  400
+      #define MULTI_MODE_DRIVE_M2_MAX   750
+      #define MULTI_MODE_DRIVE_M2_RATE  350
       #define MULTI_MODE_M2_I_MOT_MAX   12
-      #define MULTI_MODE_M2_N_MOT_MAX   100
+      #define MULTI_MODE_M2_N_MOT_MAX   150
 
       // ADVANCED MODE:    Power ON + Brake [pressed] + Throttle [pressed]
       #define MULTI_MODE_DRIVE_M3_MAX   1200
-      #define MULTI_MODE_DRIVE_M3_RATE  450
+      #define MULTI_MODE_DRIVE_M3_RATE  500
       #define MULTI_MODE_M3_I_MOT_MAX   I_MOT_MAX
       #define MULTI_MODE_M3_N_MOT_MAX   N_MOT_MAX
   #endif
